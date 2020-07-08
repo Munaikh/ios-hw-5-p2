@@ -40,12 +40,12 @@ class MovieDetailVCTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CellTableViewCell
         
         // Configure the cell...
-        cell.textLabel!.text = MoviesData[indexPath.row].movieName
-        cell.imageView!.image = UIImage(named: MoviesData[indexPath.row].movieName)
-
+        
+        cell.movieImage.image = UIImage(named: MoviesData[indexPath.row].movieName)
+        cell.movieName.text = MoviesData[indexPath.row].movieName
         
         return cell
     }

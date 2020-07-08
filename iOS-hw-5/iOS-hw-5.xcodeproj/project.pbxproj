@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B810651924B10B64001E3DE7 /* MovieDetailTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810651824B10B64001E3DE7 /* MovieDetailTableVC.swift */; };
+		B84B2AC924B6485600D96AA7 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B2AC824B6485600D96AA7 /* CellTableViewCell.swift */; };
 		B87965FF24B0F43F00909E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87965FE24B0F43F00909E32 /* AppDelegate.swift */; };
 		B879660124B0F43F00909E32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879660024B0F43F00909E32 /* SceneDelegate.swift */; };
 		B879660624B0F43F00909E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B879660424B0F43F00909E32 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		B810651824B10B64001E3DE7 /* MovieDetailTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailTableVC.swift; sourceTree = "<group>"; };
+		B84B2AC824B6485600D96AA7 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 		B87965FB24B0F43F00909E32 /* iOS-hw-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-hw-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87965FE24B0F43F00909E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B879660024B0F43F00909E32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				B879661A24B0FF9600909E32 /* MovieDetailVC.swift */,
 				B810651824B10B64001E3DE7 /* MovieDetailTableVC.swift */,
+				B84B2AC824B6485600D96AA7 /* CellTableViewCell.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				B879661524B0F6E300909E32 /* movieData.swift in Sources */,
 				B87965FF24B0F43F00909E32 /* AppDelegate.swift in Sources */,
 				B879661B24B0FF9600909E32 /* MovieDetailVC.swift in Sources */,
+				B84B2AC924B6485600D96AA7 /* CellTableViewCell.swift in Sources */,
 				B879660124B0F43F00909E32 /* SceneDelegate.swift in Sources */,
 				B810651924B10B64001E3DE7 /* MovieDetailTableVC.swift in Sources */,
 			);
